@@ -9,7 +9,8 @@
 
 	<!-- Maps '/' requests to the 'home' view -->
 	<mvc:view-controller path="/" view-name="home"/>
-	
+	<mvc:view-controller path="/login" view-name="login"/>
+
 	<context:component-scan base-package="org.springframework.samples.mvc" />
-	 
+
 </beans>

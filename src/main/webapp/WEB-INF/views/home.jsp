@@ -23,9 +23,10 @@
 		<li><a href="<c:url value="/fileupload" />" title="fileupload">File Upload</a></li>
 		<li><a href="#exceptions">Exception Handling</a></li>
 		<li><a href="#redirect">Redirecting</a></li>
-        <li><a href="#async">Async Requests</a></li>
-    </ul>
-    <div id="simple">
+		<li><a href="#async">Async Requests</a></li>
+		<li><a href="j_spring_security_logout">Logout</a></li>
+	</ul>
+		<div id="simple">
 		<h2>Simple</h2>
 		<p>
 			See the <code>org.springframework.samples.mvc.simple</code> package for the @Controller code
