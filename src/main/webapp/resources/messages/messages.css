@@ -52,3 +52,7 @@ body {
 ul li {
 	padding: 5px;
 }
+
+#logoutlink {
+	float: right;
+}

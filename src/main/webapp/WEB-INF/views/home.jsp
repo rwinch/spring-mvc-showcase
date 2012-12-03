@@ -7,6 +7,7 @@
 	<link href="<c:url value="/resources/jqueryui/1.8/themes/base/jquery.ui.all.css" />" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<div><a id="logoutlink" href="<c:url value="/j_spring_security_logout" />">Logout</a></div>
 <h1><a href="<c:url value="/" />">spring-mvc-showcase</a></h1>
 <p>Recommended: Using a Web Developer tool such a Firebug to inspect the client/server interaction</p>
 <div id="tabs">
