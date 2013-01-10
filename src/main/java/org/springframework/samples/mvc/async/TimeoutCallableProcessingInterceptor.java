@@ -1,6 +1,9 @@
 package org.springframework.samples.mvc.async;
 
+import java.io.PrintWriter;
 import java.util.concurrent.Callable;
+
+import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.web.context.request.NativeWebRequest;
 import org.springframework.web.context.request.async.CallableProcessingInterceptorAdapter;

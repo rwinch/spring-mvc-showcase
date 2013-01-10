@@ -53,7 +53,7 @@ public class DeferredResultController {
 		return new DeferredResult<String>(1000L, "Deferred result after timeout");
 	}
 
-	@Scheduled(fixedRate=2000)
+//	@Scheduled(fixedRate=2000)
 	public void processQueues() {
 		for (DeferredResult<String> result : this.responseBodyQueue) {
 			result.setResult("Deferred result");
